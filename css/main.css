@@ -32,14 +32,14 @@ html {
   background: url("../images/leaf-icon.svg") no-repeat;
   background-repeat: no-repeat;
   background-size: 48px auto;
-  background-position: center;
+  background-position: .75em;
   background-color: #fff;
 }
 
 .banner {
-  background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat center bottom;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background:
+    linear-gradient(to top, rgba(16, 52, 41, .8) 5%, rgba(16, 52, 41, 0) 50%) no-repeat center bottom,
+    url("../images/banner.jpg") no-repeat center bottom;
   background-size: cover;
   border-bottom: 3px solid #2d5a4d;
 }
